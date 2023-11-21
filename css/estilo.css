@@ -8,7 +8,10 @@
 }
 #cuerpoContenido{
     width: 100%;
-    height: 500px;}
+    background-color:#d3ee9f;
+    display: flex;
+    padding-top: 50px;
+}
 footer{
     width: 100%;
     height: 200px;}
@@ -17,21 +20,57 @@ footer{
 }
 #CabeceraMenu{
     flex: 70%;
+    margin: 15px 20px 0 0;
+    text-align: right;
+}
+ul li{
+    text-decoration: none;
+    display: inline;
+    border-right: solid 2px #550101;
+}
+ul li a{
+    color: #550101;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+}
+ul li a:hover{
+    color: white;
+    text-decoration: underline;
 }
 #ImagenNombreRedondo{
-    width: 150px;
-    height: 150px;
-    background-color:white;
+    width: 125px;   
+    height: 125px;
+    position: relative;
+    z-index: 1000;
+    left: 5%;
+    background-image: url("../img/casisota.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
     border-radius: 75px;
 }
 #nombreRectangulo{
     background-color: #013334;
-    width: 40%;
+    width: 13%;
     padding: 20px;
     color: white;
-    font-size: 20px;
+    font-size: 25pxs;
     text-transform: uppercase;
     font-weight: bold;
+    position: absolute;
+    top: 19%;
 }
-
-
+#logoinicio{
+    background-image: url(/img/casisota.png);
+    padding: 2px 0 0 18px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+#cuerpoImagen{
+    flex: 40%;
+}
+#cuerpoDetalle{
+    flex: 60%;
+}
