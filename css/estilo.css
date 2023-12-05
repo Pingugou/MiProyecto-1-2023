@@ -14,7 +14,8 @@
 }
 footer{
     width: 100%;
-    height: 200px;}
+    background-color: #7B9E35;
+}
 #cabeceraImagenNombre{
     flex: 30%;
 }
@@ -89,4 +90,81 @@ h1{
     text-align: justify;
     padding: 30px;
     
+}
+#botones{
+    display: flex;
+}
+#botonFavorito{
+    flex: 50%;
+}
+#botonUbicacion{
+    flex: 50%;
+}
+#marcoFavorito{
+    width: 30%;
+    background-color: #cccccc;
+    border-radius: 20px;
+    background-image: url(../img/personitas.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    padding: 20px 20px 20px 40px;
+    background-position: left 5px center;
+}
+#marcoUbicacion{
+    background-image: url(/img/rojo.png);
+}
+.disenoBoton{
+    width: 30%;
+    background-color: #cccccc;
+    border-radius: 20px;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    padding: 20px 20px 20px 40px;
+    background-position: left 5px center;
+}
+.disenoBoton:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+ul li:last-child{
+    border-right:  none 0;
+}
+#menuFooter{
+    flex: 20%;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: bold;
+}
+nav a:hover{
+    color:#550101;
+    font-size: 20px;
+}
+#contenidoFooter{
+    flex: 40%;
+    text-align: justify;
+    color: white;
+}
+#socialFooter{
+    flex: 40%;
+    text-align: center;
+}
+.socialesFotter li{
+    border: none;
+}
+li img{
+    width: 5%;
+    padding: 10px;
+}
+li img:hover{
+    cursor:pointer;
+    opacity: 60%;
+    width: 6%;
+}
+#marcoFooter{
+    display: flex;
+    padding: 50px;
 }
